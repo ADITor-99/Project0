@@ -1,0 +1,14 @@
+table, td, th {
+  padding: 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  align-content: center;
+  color: black; }
+
+table {
+  margin-left: 25px; }
+
+td, th {
+  text-align: center; }
+
+/*# sourceMappingURL=table.css.map */

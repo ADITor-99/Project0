@@ -1,0 +1,14 @@
+#home{
+  padding: 10px;
+}
+
+.ability{   font-family: lato;
+}
+
+div{font-style: italic;
+       color: red;
+
+       ol{color: blue;}
+       ul{color: green;}
+   }
+                             /*nesting not working in css have to check for scss*/

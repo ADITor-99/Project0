@@ -1,0 +1,11 @@
+%tabledata{padding: 10px;
+   border: 1px solid black;
+   border-collapse: collapse;
+   align-content: center;
+   color: black;}
+
+table{@extend %tabledata;
+margin-left: 25px;}
+
+td, th{@extend %tabledata;
+text-align:center;}

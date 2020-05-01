@@ -1,0 +1,51 @@
+body{
+  background-color: white;                           /*Adjust background image*/
+
+  }
+
+p{color: white;
+  padding-left: : 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+     font-family: lato,sans-serif;
+     text-align: center;
+     font-style: italic;
+    }
+
+#game{text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+      }
+
+#home{padding-left: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+}
+
+.content{
+  font-family: lato;
+  font-weight: bold;
+  color: darkgrey;
+  font-size: 25px;
+   -webkit-text-stroke: 0.45px black;                               //outlining the text
+}
+
+
+.image{float: right;
+margin-right: 25px;}
+
+th,td{background-color: lightgrey;}
+
+td a:hover{background-color: yellow;
+color: green;}
+
+.main{display: flex;
+flex-wrap: wrap;}
+
+@media (max-width:1000px) {
+  .image{float: left;}
+
+}
+
+.table2{margin-bottom: 25px;}
